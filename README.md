@@ -1,10 +1,10 @@
-# 🎰 Multi-Armed Bandit Playground
+# Multi-Armed Bandit Playground
 
 **A Product Experimentation Simulator**
 
 A production-quality, research-grade simulation environment for comparing multi-armed bandit algorithms in realistic product experimentation scenarios — such as testing homepage designs, pricing strategies, or feature rollouts.
 
-## 🎯 What This Project Does
+## What This Project Does
 
 This notebook simulates and compares five bandit algorithms across diverse experimental conditions:
 
@@ -16,7 +16,7 @@ This notebook simulates and compares five bandit algorithms across diverse exper
 | **Thompson Sampling** | Bayesian posterior sampling | Production rollouts, best overall |
 | **Sliding-Window TS** | Windowed posterior for drift | Non-stationary environments |
 
-## 📊 Key Questions Answered
+## Key Questions Answered
 
 - Which algorithm maximizes cumulative reward?
 - Which converges fastest?
@@ -25,7 +25,7 @@ This notebook simulates and compares five bandit algorithms across diverse exper
 - How do different traffic volumes impact performance?
 - What happens under non-stationary reward distributions?
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 jupyter notebook notebook.ipynb
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 multi-armed-bandit-playground/
@@ -54,7 +54,7 @@ multi-armed-bandit-playground/
 └── outputs/              # Auto-generated plots and CSV exports (gitignored)
 ```
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **NumPy** — numerical computation
 - **Matplotlib** — visualization
@@ -63,6 +63,6 @@ multi-armed-bandit-playground/
 
 No external bandit libraries — everything is implemented from scratch.
 
-## 📝 License
+## License
 
 MIT License — feel free to use, modify, and share.
